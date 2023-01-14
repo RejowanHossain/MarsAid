@@ -1,6 +1,7 @@
 import React from 'react'
 import { Icon } from '@iconify/react';
 import './HeroOne.css'
+import Button from '../Buttons/Button'
 
 
 const HeroOne = () => {
@@ -19,6 +20,8 @@ const HeroOne = () => {
                     </h1>
                     <img src={require(`../../assets/heartbeat.png`)}alt="heartbeat" />
                     <p>Over A Long Period Of Work We Have Provided 1000’S Of Clients A Better Life And Helped To Overcome Mental Illness. It is a long established fact.</p>
+
+                    <Button text='Know More' goTo='/about'/>
                 </div>
             </div>
             <div className="col-lg-7">dsds</div>

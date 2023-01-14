@@ -4,9 +4,48 @@ import './Navbar.css'
 import { Link } from "react-router-dom";
 import { Icon } from '@iconify/react';
 
+
 const Navbar = () => {
+
+  const links = [
+    {
+        id: 1,
+        to: '/home',
+        name: 'Home'
+    },
+    {
+        id: 2,
+        to: '/about',
+        name: 'About'
+    },
+    {
+        id: 3,
+        to: '/departments',
+        name: 'Departments'
+    },
+    {
+        id: 4,
+        to: '/doctor',
+        name: 'Doctor'
+    },
+    {
+        id: 5,
+        to: '/pages',
+        name: 'Pages'
+    },
+    {
+        id: 6,
+        to: '/blogs',
+        name: 'Blogs'
+    },
+    {
+        id: 7,
+        to: '/contact',
+        name: 'Contact'
+    },
+
+]
   return (
-    
     <div className='navbar-wrapper'>
       <div className="container">
         <div className="row align-items-center">
@@ -20,7 +59,14 @@ const Navbar = () => {
           <div className="col-lg-10 d-flex justify-content-end">
             <nav>
               <ul>
-                <li>
+                {
+                  links.map((link) =>
+                  <li key={link.id}>
+                    <Link to={link.to}>{link.name}</Link>
+                  </li>
+                  )
+                }
+                {/* <li>
                   <Link to="/">Home</Link>
                 </li>
 
@@ -46,7 +92,7 @@ const Navbar = () => {
 
                 <li>
                   <Link to="contact">Contact</Link>
-                </li>
+                </li> */}
 
                 <div className='navbar-cta-wrapper'>
                   <li>

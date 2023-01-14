@@ -30,11 +30,11 @@
 .hero-text img{
     position: absolute;
     right: 35%;
-    bottom: 31%;
+    bottom: 42%;
 }
 .hero-text p{
     text-transform: lowercase;
     font-size: 16px;
     padding-right: 46px;
-
+    font-family: 'Inter', sans-serif;
 }

@@ -20,6 +20,7 @@
 .navbar-cta-wrapper{
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 .navbar-cta-wrapper li{
     display: flex;
