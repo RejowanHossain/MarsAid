@@ -1,0 +1,40 @@
+.hero-one-wrapper{}
+.hero-text{}
+.hero-text .subheading{
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
+}
+.hero-text .subheading svg{
+    color: #FF5454;
+}
+.hero-text .subheading p{
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    color: #222C50;
+    margin: 0 0 0 5px;
+    text-transform: capitalize;
+}
+.hero-text h1{
+    font-family: 'DM Serif Display', serif;
+    font-size: 55px;
+    text-transform: capitalize;
+    position: relative;
+    margin-bottom: 15px;
+}
+.hero-text h1 span{
+    color: #499AFA;
+    text-decoration: underline;
+}
+.hero-text img{
+    position: absolute;
+    right: 35%;
+    bottom: 31%;
+}
+.hero-text p{
+    text-transform: lowercase;
+    font-size: 16px;
+    padding-right: 46px;
+
+}

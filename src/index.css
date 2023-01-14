@@ -27,7 +27,7 @@ footer area
     default css
 ---------------------------------------------------------------------------------------*/
 
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Heebo:wght@500;600&family=Inter:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Heebo:wght@500;600&family=Inter:wght@400;500;700&display=swap');
 
 /* 
 
@@ -137,7 +137,7 @@ button:focus {
 a {
     color: #031031;
     font-size: 16px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Inter', sans-serif;
     display: block;
     font-weight: 400;
 }
