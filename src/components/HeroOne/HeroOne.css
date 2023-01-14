@@ -1,4 +1,8 @@
-.hero-one-wrapper{}
+.hero-one-wrapper{
+    background: url('../../assets/hero-bg.png') no-repeat center center;
+    background-size: cover;
+    padding: 150px 0;
+}
 .hero-text{}
 .hero-text .subheading{
     display: flex;
@@ -35,6 +39,42 @@
 .hero-text p{
     text-transform: lowercase;
     font-size: 16px;
-    padding-right: 46px;
+    padding-right: 35px;
     font-family: 'Inter', sans-serif;
+}
+.col-lg-7.flex-col{
+    display: flex;
+    padding: 0 0 0 0 ;
+}
+.hero-img-one{
+    margin-right: 30px;
+}
+.hero-img-two{
+    margin-bottom: 30px;
+    position: relative;
+}
+.hero-img-two::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #222C50;
+    height: 100%;
+    width: 100%;
+    opacity: .6;
+}
+.play-btn{
+    background: #499AFA;
+    display: flex;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    color: #fff;
+    position: absolute;
+    top: 19%;
+    right: 16%;
+    cursor: pointer;
 }

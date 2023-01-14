@@ -1,3 +1,7 @@
+.navbar-wrapper{
+    position: absolute;
+    width: 100%;
+}
 .navbar-wrapper nav ul{
     display: flex;
     margin-bottom: 0;

@@ -1,0 +1,34 @@
+.section-title{
+    position: relative;
+}
+.section-title .subheader{
+    display: flex;
+    align-items: center;
+}
+.section-title .subheader svg{
+    color: #499AFA;
+}
+.section-title .subheader p{
+    font-family: 'DM Serif Display', sans-serif;
+    font-size: 14px;
+    color: #499AFA;
+    margin-bottom: 0;
+    margin-left: 3px;
+    text-transform: capitalize;
+}
+.section-title h2{
+    font-family: 'DM Serif Display', sans-serif;
+    font-size: 35px;
+    color: #222C50;
+}
+.lg-text{
+    position: absolute;
+    left: 0;
+    bottom: 55%;
+}
+.lg-text h2{
+    font-family: 'DM Serif Display', sans-serif;
+    font-size: 100px;
+    color: #3AC4E5;
+    opacity: .1;
+}
