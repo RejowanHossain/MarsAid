@@ -1,13 +1,16 @@
+.apoointment-wrapper{
+    padding: 67px 0 0;
+}
 .lists{
     display: flex;
     align-items: center;
     margin-top: 27px;
-    margin-bottom: 30px;
+    margin-bottom: 18px;
 }
 .content ul li{
     display: flex;
     align-items: center;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 .content ul li:last-child{
     margin-bottom: 0;
@@ -23,4 +26,39 @@
 }
 .secondListWrapper{
     margin-left: 60px;
+}
+.appoint-flex-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.title{
+    margin-bottom: 22px;
+}
+.title h5{
+    font-family: 'DM Serif Display', sans-serif;
+    font-size: 22px;
+    color: #222C50;
+}
+.times ul li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 22px;
+}
+.times ul li:last-child{
+    margin-bottom: 0;
+}
+.times ul li span{
+    color: #222C50;
+    font-size: 14px;
+    font-weight: 700;
+    margin-right: 60px;
+}
+.times ul li p{
+    color: #222C50;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.appoint-image img{
+    width: 100%;
 }

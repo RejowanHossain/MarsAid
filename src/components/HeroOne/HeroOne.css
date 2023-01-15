@@ -1,9 +1,8 @@
 .hero-one-wrapper{
     background: url('../../assets/hero-bg.png') no-repeat center center;
     background-size: cover;
-    padding: 150px 0;
+    padding: 150px 0 68px 0;
 }
-.hero-text{}
 .hero-text .subheading{
     display: flex;
     align-items: center;

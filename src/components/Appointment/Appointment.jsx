@@ -42,6 +42,44 @@ const Appointment = () => {
     },
   ]
 
+  const timings = [
+    {
+      id: 1,
+      day: 'Sat',
+      time: '09:00 AM - 10:00 PM'
+    },
+    {
+      id: 2,
+      day: 'Sun',
+      time: '09:00 AM - 10:00 PM'
+    },
+    {
+      id: 3,
+      day: 'Mon',
+      time: '09:00 AM - 10:00 PM'
+    },
+    {
+      id: 4,
+      day: 'Tue',
+      time: '09:00 AM - 10:00 PM'
+    },
+    {
+      id: 5,
+      day: 'Wed',
+      time: '09:00 AM - 10:00 PM'
+    },
+    {
+      id: 6,
+      day: 'Thu',
+      time: '09:00 AM - 10:00 PM'
+    },
+    {
+      id: 7,
+      day: 'Fri',
+      time: '09:00 AM - 10:00 PM'
+    },
+  ]
+
 
   return (
     <div className='apoointment-wrapper'>
@@ -82,8 +120,28 @@ const Appointment = () => {
               <Button text='Book Appointment' goTo='/contact'/>
             </div>
           </div>
-          <div className="col-lg-3">sas</div>
-          <div className="col-lg-4">aa</div>
+          <div className="col-lg-3 appoint-flex-col">
+            <div className="title">
+              <h5>Timings</h5>
+            </div>
+            <div className="times">
+              <ul>
+              {
+                timings.map((timing) =>
+                  <li key={timing.id}>
+                    <span>{timing.day}</span>
+                    <p>{timing.time}</p>
+                  </li>
+                )
+                }
+              </ul>
+            </div>
+          </div>
+          <div className="col-lg-4">
+            <div className="appoint-image">
+              <img src={require(`../../assets/appointment-image.png`)} alt="man" />
+            </div>
+          </div>
         </div>
       </div>
     </div>

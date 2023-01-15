@@ -1,0 +1,39 @@
+.steps-wrapper{
+    background: url('../../assets/how-it-works-bg.png') no-repeat center center;
+    background-size: cover;
+    padding: 78px 0;
+    margin-bottom: 68px;
+}
+.icon{
+    margin-bottom: 21px;
+}
+.icon svg{
+    padding: 15px;
+    height: 62px;
+    width: 62px;
+}
+.accent{
+    color: #3AC4E5;
+    background: #DAFBFE;
+}
+.red{
+    color: #FF5454;
+    background: #FEE3E6;
+}
+.blue{
+    color: #499AFA;
+    background: #E4E7FF;
+}
+.generic{
+    background: #F4F7FC;
+    color: #6E7990;
+}
+.single-step h4{
+    font-family: 'DM Serif Display', sans-serif;
+    font-size: 25px;
+    color: #222C50;
+    margin-bottom: 8px;
+}
+.single-step p{
+    margin-bottom: 0;
+}

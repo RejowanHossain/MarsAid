@@ -1,0 +1,65 @@
+.choose-wrapper{
+    padding: 68px 0;
+}
+.mt-62{
+    margin-top: 62px;
+}
+.choose-content p{
+    padding-right: 40px;
+    margin-top: 10px;
+}
+.badges{
+    display: flex;
+    align-items: center;
+    margin: 28px 0;
+}
+.single-badge{
+    display: flex;
+    align-items: center;
+    background: #F7FAFE;
+    border-left: 4px solid #499AFA;
+    padding: 21px;
+}
+.single-badge:last-child{
+    margin-left: 30px;
+}
+.single-badge .b-icon{
+    display: flex;
+    align-items: center;
+}
+.single-badge .b-icon svg{
+    background: #499AFA;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.single-badge h5{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 0;
+    line-height: 20px;
+    padding-right: 20px;
+}
+.sign{
+    margin-top: 28px;
+}
+.sign .meta{
+    margin-top: 10px;
+}
+.sign .meta h5{
+    font-family: "Heebo", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #499AFA;
+    margin-bottom: 0;
+}
+.sign .meta span{
+    font-size: 16px;
+    font-weight: 600;
+    color: #222C50;
+}
