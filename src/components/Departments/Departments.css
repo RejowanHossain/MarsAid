@@ -1,0 +1,43 @@
+
+.department-wrapper{
+    padding: 68px 0;
+}
+
+.sec-title{
+    text-align: center;
+}
+.sec-title .section-title .subheader{
+    display: flex;
+    justify-content: center;
+}
+.sec-title .lg-text{
+    bottom: -21%;
+}
+.single-department{
+    background: #fff;
+    box-shadow: 0px 7px 55px rgba(73, 154, 250, 0.06);
+    padding: 47px 20px;
+    text-align: center;
+}
+.single-department svg{
+    height: 90px;
+    width: 90px;
+    padding: 21px;
+    margin-bottom: 32px;
+
+}
+.single-department h5 a{
+    color: #222C50;
+    font-size: 25px;
+    font-family: 'DM Serif Display', sans-serif;
+   margin-bottom: 11px;;
+}
+.single-department h5 a:hover{
+    text-decoration: none;
+}
+.single-department p{
+    margin-bottom: 0;
+}
+.mt-65{
+    margin-top: 65px;
+}

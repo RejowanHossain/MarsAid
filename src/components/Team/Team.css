@@ -1,0 +1,88 @@
+.team-wrapper{
+    padding: 68px 0;
+}
+.team-wrapper .sec-title .lg-text{
+    left: 10%;
+}
+.team-img{
+    position: relative;
+}
+.team-img img{
+    width: 100%;
+}
+.team-img::before{
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: #222C50;
+    opacity: 0;
+    transition: .3s linear all;
+}
+.info{
+    background: #fff;
+    padding: 18px 20px;
+    position: absolute;
+    bottom: -10%;
+    left: 12%;
+    box-shadow: 0px 7px 55px rgba(73, 154, 250, 0.06);
+    width: 220px;
+    transition: .3s linear all;
+}
+.info h6 a{
+    color: #222C50;
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'DM Serif Display',sans-serif;
+    transition: .3s linear all;
+}
+.info h6 a:hover{
+    text-decoration: none;
+}
+.info p{
+    font-size: 12px;
+    margin-bottom: 0;
+    transition: .3s linear all;
+}
+
+.social-links{
+    background: #499AFA;
+    position: absolute;
+    top: 0;
+    right:5%;
+    padding: 23px 16px;
+    opacity: 0;
+    transition: .3s linear all;
+}
+.social-links ul{
+    margin-bottom: 0;
+}
+.social-links ul li{
+    margin-bottom: 35px;
+}
+.social-links ul li:last-child{
+    margin-bottom: 0;
+}
+.social-links ul li a{
+    color: #fff;
+    font-size: 20px;
+}
+
+.single-team:hover .team-img::before{
+    opacity: .6;
+}
+.single-team:hover > .info{
+    background: #499AFA;
+}
+.single-team:hover > .info > h6 a{
+    color: #fff;
+}
+.single-team:hover > .info > *{
+    color: #fff;
+}
+.single-team:hover .social-links{
+    opacity: 1;
+}
