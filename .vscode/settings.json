@@ -1,3 +1,4 @@
 {
-    "editor.fontFamily": "Monolisa"
+    "editor.fontFamily": "Fira Code",
+    "editor.fontSize": 14
 }

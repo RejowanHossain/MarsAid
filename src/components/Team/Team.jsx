@@ -9,7 +9,20 @@ import imageTwo from '../../assets/team-2.png'
 import imageThree from '../../assets/team-3.png'
 import imageFour from '../../assets/team-4.png'
 
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+// import { Pagination } from "swiper";
+
+// Import Swiper styles
+import "swiper/swiper.min.css";
+import SwiperCore , { Autoplay } from 'swiper';
+
+// import 'swiper/css/autoplay'
+
+
 const Team = () => {
+
+  SwiperCore.use([Autoplay])
 
   const teams = [
     {
@@ -67,7 +80,38 @@ const Team = () => {
       ]
       
     },
+    {
+      id: 5,
+      image: imageThree,
+      name: 'Travis Scott',
+      designation: 'Urologist',
+
+      social: [
+        'ri:facebook-fill',
+         'ri:linkedin-fill',
+         'mdi:twitter'
+     ]
+      
+    },
+
+    {
+      id: 6,
+      image: imageFour,
+      name: 'Keith Richards',
+      designation: 'Pulmonologist',
+
+      social: [
+         'ri:facebook-fill',
+          'ri:linkedin-fill',
+          'mdi:twitter'
+      ]
+      
+    },
   ]
+
+  
+
+
 
   return (
     <div className='team-wrapper'>
@@ -81,38 +125,56 @@ const Team = () => {
           </div>
 
           <div className="row mt-65">
-            {
-              teams.map((team) =>
-              <div className="col-lg-3">
-                <div className="single-team" key={team.id}>
-                  <div className="team-img">
-                    <img src={team.image} alt="man" />
-                  </div>
-                  <div className="info">
-                    <h6>
-                      <Link to='/doctor-details'>
-                        {team.name}
-                      </Link>
-                    </h6>
-                    <p>{team.designation}</p>
-                  </div>
-                  <div className="social-links">
-                    <ul>
-                      {
-                        team.social.map((social) =>
-                          <li>
-                            <Link to='#'>
-                              <Icon icon={social} />
-                            </Link>
-                          </li>
-                        )
-                      }
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              )
-            }
+
+            <Swiper
+              slidesPerView={"auto"}
+              spaceBetween={30}
+              autoplay={true}
+              modules={[Autoplay]}
+            >
+              <SwiperSlide>
+              {
+                    teams.map((team) =>
+                   
+
+                      <div className="col-lg-3">
+                        <div className="single-team" key={team.id}>
+                          <div className="team-img">
+                            <img src={team.image} alt="man" />
+                          </div>
+                          <div className="info">
+                            <h6>
+                              <Link to='/doctor-details'>
+                                {team.name}
+                              </Link>
+                            </h6>
+                            <p>{team.designation}</p>
+                          </div>
+                          <div className="social-links">
+                            <ul>
+                              {
+                                team.social.map((social) =>
+                                  <li>
+                                    <Link to='#'>
+                                      <Icon icon={social} />
+                                    </Link>
+                                  </li>
+                                )
+                              }
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+
+               
+                    )
+                  }
+              </SwiperSlide>
+              
+            </Swiper>
+          
+  
+            
           </div>
         </div>
     </div>

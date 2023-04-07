@@ -5,6 +5,7 @@ import HowItWorks from '../components/HowItWorks/HowItWorks'
 import ChooseUs from '../components/ChooseUs/ChooseUs'
 import Departments from '../components/Departments/Departments'
 import Team from '../components/Team/Team'
+import Testimonials from '../components/Testimonials/Testimonials'
 
 const HomeOne = () => {
   return (
@@ -15,6 +16,7 @@ const HomeOne = () => {
       <ChooseUs/>
       <Departments/>
       <Team/>
+      <Testimonials/>
     </div>
   )
 }

@@ -86,3 +86,7 @@
 .single-team:hover .social-links{
     opacity: 1;
 }
+.team-wrapper .swiper-slide{
+    display: flex;
+    align-items: center;
+}
