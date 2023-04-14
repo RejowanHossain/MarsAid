@@ -1,4 +1,6 @@
-
+.testimonial-wrapper{
+    padding: 68px 0;
+}
 .testimonial-image{
     width: 100%;
 }
@@ -23,12 +25,37 @@
 .review svg{
     color: #F49A47;
 }
+.testi-content-wrapper p{
+    display: block;
+    margin-bottom: 28px;
+}
 .center-align{
     display: flex;
     align-items: center;
 }
 .quote{
-    position: absolute;
-    right: 0;
-    top: -70%;
+    display: flex;
+    justify-content: end;
+}
+.carousel .carousel-indicators{
+    display: flex;
+    justify-content: start;
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: 0;
+}
+.carousel-indicators button{
+    height: 12px;
+    width: 12px;
+    border: 0;
+    border-radius: 50%;
+    background: #6E7990;
+    opacity: .5;
+    margin-right: 10px;
+}
+
+.carousel-indicators button[aria-current="true"]{
+    background: #499AFA;
+    width: 20px;
+    border-radius: 8px;
 }

@@ -3,7 +3,7 @@ import { Icon } from '@iconify/react';
 import './SectionTitle.css'
 const SectionTitle = ({subtitle, title, bigText}) => {
   return (
-    <div>
+    <>
         <div className='section-title'>
             <div className="subheader">
                 <Icon icon="tabler:activity-heartbeat" />
@@ -15,7 +15,7 @@ const SectionTitle = ({subtitle, title, bigText}) => {
         <div className="lg-text">
             <h2>{bigText}</h2>
         </div>
-    </div>
+    </>
   )
 }
 

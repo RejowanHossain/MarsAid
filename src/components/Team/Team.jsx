@@ -17,7 +17,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper.min.css";
 import SwiperCore , { Autoplay } from 'swiper';
 
-// import 'swiper/css/autoplay'
+
 
 
 const Team = () => {
@@ -108,9 +108,6 @@ const Team = () => {
       
     },
   ]
-
-  
-
 
 
   return (

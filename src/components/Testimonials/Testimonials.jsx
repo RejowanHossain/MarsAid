@@ -1,21 +1,11 @@
 import React from 'react'
 import './Testimonials.css'
 import { Icon } from '@iconify/react';
-import image from '../../assets/testi-small.png'
+import image from '../../assets/testi-small.png';
+import Carousel from 'react-bootstrap/Carousel';
 
 
-// Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
-// import { Pagination } from "swiper";
-
-// Import Swiper styles
-import "swiper/swiper.min.css";
-import SwiperCore , { Autoplay } from 'swiper';
-
-// import 'swiper/css/autoplay'
 const Testimonials = () => {
-
-    SwiperCore.use([Autoplay])
 
     const testimonials = [
         {
@@ -47,16 +37,12 @@ const Testimonials = () => {
                 </div>
                 <div className="col-lg-6">
                     <div className="testi-content-wrapper">
-                        <Swiper
-                        slidesPerView={"auto"}
-                        spaceBetween={30}
-                        autoplay={true}
-                        modules={[Autoplay]}
-                        >
-                            <SwiperSlide>
+                    
+                        <Carousel>
+
                             {
                                 testimonials.map((testimonial) =>
-                                    <>
+                                    <Carousel.Item>
                                         <div className="quote">
                                             <img src={require('../../assets/quote.png')} alt="quote" />
                                         </div>
@@ -74,14 +60,15 @@ const Testimonials = () => {
                                             </div>
                                         </div>
                                         <p>{testimonial.content}</p>
-                                    </>
+                                    </Carousel.Item>
 
                                 )
                             }
-                            </SwiperSlide>
-                        </Swiper>
-                        
-                
+
+        
+                        </Carousel>
+                            
+                            
                     </div>
                 </div>
             </div>

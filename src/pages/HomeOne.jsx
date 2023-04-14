@@ -6,6 +6,11 @@ import ChooseUs from '../components/ChooseUs/ChooseUs'
 import Departments from '../components/Departments/Departments'
 import Team from '../components/Team/Team'
 import Testimonials from '../components/Testimonials/Testimonials'
+import Cta from '../components/Cta/Cta'
+import Blogs from '../components/Blogs/Blogs'
+import Footer from '../components/Footer/Footer'
+
+
 
 const HomeOne = () => {
   return (
@@ -17,6 +22,9 @@ const HomeOne = () => {
       <Departments/>
       <Team/>
       <Testimonials/>
+      <Cta/>
+      <Blogs/>
+      <Footer/>
     </div>
   )
 }

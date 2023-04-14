@@ -10,7 +10,7 @@ const Navbar = () => {
   const links = [
     {
         id: 1,
-        to: '/home',
+        to: '/',
         name: 'Home'
     },
     {
@@ -66,33 +66,6 @@ const Navbar = () => {
                   </li>
                   )
                 }
-                {/* <li>
-                  <Link to="/">Home</Link>
-                </li>
-
-                <li>
-                  <Link to="about">About</Link>
-                </li>
-
-                <li>
-                  <Link to="#">Departments +</Link>
-                </li>
-
-                <li>
-                  <Link to="doctor">Doctor +</Link>
-                </li>
-
-                <li>
-                  <Link to="#">Pages +</Link>
-                </li>
-
-                <li>
-                  <Link to="blogs">Blogs +</Link>
-                </li>
-
-                <li>
-                  <Link to="contact">Contact</Link>
-                </li> */}
 
                 <div className='navbar-cta-wrapper'>
                   <li>
