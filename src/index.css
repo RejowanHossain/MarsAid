@@ -224,3 +224,16 @@ p {
     transition: all 0.4s linear;
 
 }
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    .section-title h2{
+        font-size: 30px;
+    }
+    .lg-text{
+        bottom: 79%;
+    }
+    .lg-text h2{
+        font-size: 95px;
+    }
+}

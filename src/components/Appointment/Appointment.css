@@ -62,3 +62,137 @@
 .appoint-image img{
     width: 100%;
 }
+
+
+.hero-one-wrapper{
+    background: url('../../assets/hero-bg.png') no-repeat center center;
+    background-size: cover;
+    padding: 150px 0 68px 0;
+}
+.hero-text .subheading{
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
+}
+.hero-text .subheading svg{
+    color: #FF5454;
+}
+.hero-text .subheading p{
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    color: #222C50;
+    margin: 0 0 0 5px;
+    text-transform: capitalize;
+}
+.hero-text h1{
+    font-family: 'DM Serif Display', serif;
+    font-size: 55px;
+    text-transform: capitalize;
+    position: relative;
+    margin-bottom: 15px;
+}
+.hero-text h1 span{
+    color: #499AFA;
+    text-decoration: underline;
+}
+.hero-text img{
+    position: absolute;
+    right: 35%;
+    bottom: 42%;
+}
+.hero-text p{
+    text-transform: lowercase;
+    font-size: 16px;
+    padding-right: 35px;
+    font-family: 'Inter', sans-serif;
+}
+.col-lg-7.flex-col{
+    display: flex;
+    padding: 0 0 0 0 ;
+}
+.hero-img-one{
+    margin-right: 30px;
+}
+.hero-img-two{
+    margin-bottom: 30px;
+    position: relative;
+}
+.hero-img-two::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #222C50;
+    height: 100%;
+    width: 100%;
+    opacity: .6;
+}
+.play-btn{
+    background: #499AFA;
+    display: flex;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    color: #fff;
+    position: absolute;
+    top: 19%;
+    right: 16%;
+    cursor: pointer;
+}
+
+
+/* laptop/desktop 1200px */
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+ 
+}
+
+
+/* normal desktop */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .apoointment-wrapper{
+        margin-bottom: 135px;
+    }
+
+    .apoointment-wrapper .mx-w-50-l{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .appoint-image{
+        display: none;
+    }
+    .appoint-flex-col{
+        display: flex;
+        align-items: center;
+    }
+}
+
+
+/* tablet */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    
+    
+}
+
+/* small mobile */
+
+@media (max-width: 1200px) {
+}
+
+@media only screen and (min-width: 320px) and (max-width: 520px) {
+    
+}
+
+
+/* large mobile */
+
+@media only screen and (min-width: 520px) and (max-width: 767px) {
+
+    
+}

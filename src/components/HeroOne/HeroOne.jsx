@@ -13,7 +13,7 @@ const HeroOne = () => {
     <div className='hero-one-wrapper'>
       <div className="container">
         <div className="row align-items-center">
-            <div className="col-lg-5">
+            <div className="col-lg-5 mx-w-50-l">
                 <div className="hero-text">
                     <div className="subheading">
                         <Icon icon="mdi:cards-heart" />
@@ -28,7 +28,7 @@ const HeroOne = () => {
                     <Button text='Know More' goTo='/about'/>
                 </div>
             </div>
-            <div className="col-lg-7 flex-col">
+            <div className="col-lg-7 flex-col mx-w-50-l">
               <div className="hero-img-one">
                 <img src={require(`../../assets/hero-img-one.png`)} alt="hero" />
               </div> 

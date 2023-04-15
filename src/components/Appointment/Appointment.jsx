@@ -85,7 +85,7 @@ const Appointment = () => {
     <div className='apoointment-wrapper'>
       <div className="container">
         <div className="row">
-          <div className="col-lg-5">
+          <div className="col-lg-5 mx-w-50-l">
             <div className="heading">
               <SectionTitle subtitle='Who We Are' title='Welcome To The MarsAid' bigText='About'/>
             </div>
@@ -120,7 +120,7 @@ const Appointment = () => {
               <Button text='Book Appointment' goTo='/contact'/>
             </div>
           </div>
-          <div className="col-lg-3 appoint-flex-col">
+          <div className="col-lg-3 appoint-flex-col mx-w-50-l">
             <div className="title">
               <h5>Timings</h5>
             </div>

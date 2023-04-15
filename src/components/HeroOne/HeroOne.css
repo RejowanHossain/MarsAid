@@ -77,3 +77,64 @@
     right: 16%;
     cursor: pointer;
 }
+
+
+/* laptop/desktop 1200px */
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+ 
+}
+
+
+/* normal desktop */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    /* Hero Starts */
+    .hero-one-wrapper .hero-text h1 {
+        font-size: 45px;
+    }
+    .hero-one-wrapper .hero-text img {
+        bottom: 51%;
+        right: 7%;
+    }
+    .hero-image-small{
+        display: none;
+    }
+    .hero-img-one {
+        margin-right: 0;
+        margin-left: 50px;
+    }
+    .hero-one-wrapper .hero-text p {
+        padding-right: 15px;
+    }
+    .hero-one-wrapper .mx-w-50-l{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+
+/* tablet */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    
+    
+}
+
+/* small mobile */
+
+@media (max-width: 1200px) {
+}
+
+@media only screen and (min-width: 320px) and (max-width: 520px) {
+    
+}
+
+
+/* large mobile */
+
+@media only screen and (min-width: 520px) and (max-width: 767px) {
+
+    
+}

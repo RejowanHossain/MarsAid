@@ -37,3 +37,43 @@
 .single-step p{
     margin-bottom: 0;
 }
+
+
+
+/* laptop/desktop 1200px */
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+ 
+}
+
+
+/* normal desktop */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    
+}
+
+
+/* tablet */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    
+    
+}
+
+/* small mobile */
+
+@media (max-width: 1200px) {
+}
+
+@media only screen and (min-width: 320px) and (max-width: 520px) {
+    
+}
+
+
+/* large mobile */
+
+@media only screen and (min-width: 520px) and (max-width: 767px) {
+
+    
+}
